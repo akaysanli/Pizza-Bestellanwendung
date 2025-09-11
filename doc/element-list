@@ -1,0 +1,7 @@
+client
+client.gui
+client.net
+server
+server.dao
+server.model
+shared
