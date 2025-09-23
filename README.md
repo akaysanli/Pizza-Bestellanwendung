@@ -80,8 +80,7 @@ Die Bestellung wurde erfolgreich in der Datenbank gespeichert!
 
 ---
 
-## 📧 Kontakt
+## Kontakt
 Fragen oder Verbesserungsvorschläge?  
-➡️ 
 - [LinkedIn: akay-mert-sanli](https://www.linkedin.com/in/akay-mert-sanli/)
 - E-Mail: [akaysanli2005@gmail.com](mailto:akaysanli2005@gmail.com)
