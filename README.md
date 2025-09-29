@@ -60,15 +60,17 @@ java -cp ".;lib/sqlite-jdbc-3.49.1.0.jar" Main
 ```text
 Willkommen zur Pizza-Bestellanwendung!
 
-Bitte wählen Sie:
-1) Margherita
-2) Salami
-3) Hawaii
+Suche, Kaufen
+Margherita - Preis - Beschreibung
+Salami - Preis - Beschreibung
+Hawaii - Preis - Beschreibung
+...
 
-Ihre Auswahl: 2
+Ihre Auswahl: Salami
+
 ➡️ Sie haben eine Pizza Salami bestellt.
 
-Die Bestellung wurde erfolgreich in der Datenbank gespeichert!
+(Die Bestellung wurde erfolgreich in der Datenbank gespeichert!)
 ```
 
 ---
