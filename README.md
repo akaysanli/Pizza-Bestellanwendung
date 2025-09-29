@@ -1,15 +1,14 @@
 # Pizza-Bestellanwendung
 
-Eine kleine Java-Anwendung zur Simulation einer **Pizza-Bestellung**.  
+Eine kleine Java-Anwendung zur Simulation einer **Pizza-Bestellanwendung**.  
 Das Projekt nutzt eine **SQLite-Datenbank** zur Verwaltung der Bestellungen.
 
 ---
 
 ## 🚀 Funktionen
-- Auswahl verschiedener Pizzen
+- Auswahl verschiedener Pizzen inkl. Such- und Kauffunktion
 - Speicherung der Bestellungen in einer SQLite-Datenbank
-- Einfache Konsolen-Ausgabe
-- Erweiterbar um eigene Pizzen und Datenbanktabellen
+- GUI-Ausgabe
 
 ---
 
@@ -35,18 +34,11 @@ pizzabestellung/
 
 ## ▶️ Starten
 
-### 1. Mit Eclipse
+### Mit Eclipse (oder einem anderen IDE)
 1. Projekt importieren  
 2. Rechtsklick auf Projekt → **Build Path → Configure Build Path**  
 3. Unter „Libraries“ die Datei `lib/sqlite-jdbc-3.49.1.0.jar` hinzufügen  
 4. `Main.java` (oder deine Startklasse) ausführen  
-
-### 2. Mit Konsole
-Falls du nur die Konsole nutzen willst:  
-```bash
-javac -cp ".;lib/sqlite-jdbc-3.49.1.0.jar" src\*.java
-java -cp ".;lib/sqlite-jdbc-3.49.1.0.jar" Main
-```
 
 ---
 
@@ -60,7 +52,8 @@ java -cp ".;lib/sqlite-jdbc-3.49.1.0.jar" Main
 ```text
 Willkommen zur Pizza-Bestellanwendung!
 
-Suche, Kaufen
+Suche      Kaufen
+
 Margherita - Preis - Beschreibung
 Salami - Preis - Beschreibung
 Hawaii - Preis - Beschreibung
@@ -68,7 +61,7 @@ Hawaii - Preis - Beschreibung
 
 Ihre Auswahl: Salami
 
-➡️ Sie haben eine Pizza Salami bestellt.
+Sie haben eine Pizza Salami bestellt.
 
 (Die Bestellung wurde erfolgreich in der Datenbank gespeichert!)
 ```
